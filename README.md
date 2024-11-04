@@ -1,6 +1,6 @@
 # item_tracker
 
-A new Flutter project.
+Flutter Project using Provider State Management, with responsive UI For Web and Mobile
 
 ## Getting Started
 
