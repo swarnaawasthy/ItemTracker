@@ -3,8 +3,7 @@ import 'package:item_tracker/feature/item_list/model/item.dart';
 
 
 class ItemProvider with ChangeNotifier {
-  List<Item> _items = [];
-
+  final List<Item> _items = [];
   List<Item> get items => _items;
 
   void addItem(String name, String description) {

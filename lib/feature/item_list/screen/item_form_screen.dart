@@ -37,7 +37,8 @@ class ItemFormScreen extends StatelessWidget {
               TextFormField(
                 controller: _descriptionController,
                 decoration: const InputDecoration(labelText: 'Description'),
-                validator: (value) => value!.isEmpty ? 'Enter a description' : null,
+                validator: (value) =>
+                    value!.isEmpty ? 'Enter a description' : null,
               ),
               const SizedBox(height: 20),
               ElevatedButton(

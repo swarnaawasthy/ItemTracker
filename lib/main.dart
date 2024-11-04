@@ -20,7 +20,7 @@ class ItemTrackerApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Item Tracker',
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: HomeScreen(),
+        home: const HomeScreen(),
       ),
     );
   }

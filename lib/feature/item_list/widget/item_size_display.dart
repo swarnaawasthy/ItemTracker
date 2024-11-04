@@ -11,7 +11,9 @@ class ItemSizeDisplay extends StatelessWidget {
         final size = renderBox?.size;
 
         return Text(
-          size != null ? 'Size: ${size.width} x ${size.height}' : 'Calculating size...',
+          size != null
+              ? 'Widget size: ${size.width.toStringAsFixed(1)} x ${size.height.toStringAsFixed(1)}'
+              : 'Calculating size...',
           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         );
       },
